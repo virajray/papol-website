@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-container{
+    border: 2px solid red;
+}
+
+.hero-head{
+    border: 2px solid red;
+}
+
+.hero-para1,.hero-para2{
+    border: 2px solid red;
+}
+
+.learn-btn-big{
+    border: 2px solid red;
+}
