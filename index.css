@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .hero-container{
     border: 2px solid red;
 }
