@@ -62,12 +62,26 @@ nav a{
     text-align: center;
 }
 
-.learn-btn-big{
-    border: 2px solid red;
-}
-
 /* Second section */
 
 .Piphone-container{
     border: 2px solid pink;
+}
+
+/* Buttons */
+.learn-btn-big{
+    background-color: #0071e3;
+    color: #fff;
+    padding: 11px 21px;
+    border-radius: 15px ;
+    border: none;
+}
+
+.buy-btn-big{
+    background-color: #fff ;
+    color: #0071e3;
+    padding: 11px 21px;
+    border-radius: 15px ;
+    border:2px solid #0071e3;
+    margin-left: 10px;
 }
