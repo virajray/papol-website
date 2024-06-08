@@ -12,6 +12,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: #181818;
+    padding: 13px 0px;
 }
 
 nav ul {
@@ -33,21 +34,21 @@ nav a{
 }
 
 .hero-container{
-    border: 2px solid blue;
+    border: 2px solid black;
     width: 100vw;
-    height: 90vh;
+    height: 80vh;
     /* position: absolute; */
     background-color: #000000;
 }
 
 .hero-img{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     width: 244px;
     height: 350px;
 }
 
 .hero-texts{
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     padding: 20px;
     color: #f4f4f6;
     display: flex;
@@ -59,15 +60,17 @@ nav a{
 }
 
 .hero-head{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
     padding: 10px;
+    font-size: 40px;
 }
 
 .hero-para1,.hero-para2{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
+    font-size: 20px;
 }
 
 /* Second section */
@@ -84,6 +87,8 @@ nav a{
     border-radius: 15px ;
     border: none;
     padding: 10px;
+    font-size: 17px;
+    margin: 10px;
 }
 
 .buy-btn-big{
@@ -93,4 +98,6 @@ nav a{
     border-radius: 15px ;
     border:2px solid #0071e3;
     margin-left: 10px;
+    font-size: 17px;
+    margin: 10px;
 }
