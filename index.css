@@ -81,14 +81,34 @@ nav a{
 }
 
 .product-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 80vh;
     border: 2px solid red;
 }
 
+.product-container .learn-btn-big{
+    display: inline;
+
+}
+
+.product-container .buy-btn-big{
+    display: inline;
+
+}
+
 .product_image{
-    width: 200px;
-    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    size-adjust:inherit;
+    border: 2px solid red;
+    width: 20%;
+    height: 45%;
 }
 
 /* Buttons */
