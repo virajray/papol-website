@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 .nav-container{
@@ -31,9 +34,14 @@ nav a{
 
 .hero-container{
     border: 2px solid blue;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    /* position: absolute; */
+}
+
+.hero-texts{
+    border: 1px solid pink;
+    padding: 20px;
 }
 
 .hero-head{
@@ -48,4 +56,10 @@ nav a{
 
 .learn-btn-big{
     border: 2px solid red;
+}
+
+/* Second section */
+
+.second-container{
+    border: 2px solid pink;
 }
