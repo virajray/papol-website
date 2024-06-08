@@ -42,7 +42,7 @@ nav a{
 
 .hero-img{
     border: 2px solid purple;
-    width: 350px;
+    width: 244px;
     height: 350px;
 }
 
@@ -50,16 +50,24 @@ nav a{
     border: 1px solid pink;
     padding: 20px;
     color: #f4f4f6;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .hero-head{
     border: 2px solid red;
     text-align: center;
+    padding: 10px;
 }
 
 .hero-para1,.hero-para2{
     border: 2px solid red;
     text-align: center;
+    padding: 10px;
 }
 
 /* Second section */
@@ -75,6 +83,7 @@ nav a{
     padding: 11px 21px;
     border-radius: 15px ;
     border: none;
+    padding: 10px;
 }
 
 .buy-btn-big{
