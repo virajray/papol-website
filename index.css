@@ -37,11 +37,19 @@ nav a{
     width: 100vw;
     height: 90vh;
     /* position: absolute; */
+    background-color: #000000;
+}
+
+.hero-img{
+    border: 2px solid purple;
+    width: 350px;
+    height: 350px;
 }
 
 .hero-texts{
     border: 1px solid pink;
     padding: 20px;
+    color: #f4f4f6;
 }
 
 .hero-head{
