@@ -96,7 +96,7 @@ nav a{
     text-align: center;
     margin-top: 15px;
 }
-.content-text .btn-row .buy-btn-big:hover{
+.buy-btn-big:hover{
     background-color: #0071e3;
     color: #fff;
     /* transition: 0.5s; */
@@ -142,6 +142,7 @@ nav a{
     border: 2px solid red;
     margin: 5px 5px 10px 10px;
     background-color: #000000;
+    text-align: center;
 }
 
 /* Buttons */
