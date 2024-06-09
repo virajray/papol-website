@@ -67,7 +67,6 @@ nav a{
     padding: 10px;
     font-size: 40px;
 }
-
 .hero-para1,.hero-para2{
     /* border: 2px solid red; */
     text-align: center;
@@ -75,13 +74,10 @@ nav a{
     font-size: 20px;
     font-weight: 400;
 }
-
 .hero-para2{
     margin-top: -10px;
 }
-
 /* Second section */
-
 .product-container{
     width: 100vw;
     height: 80vh;
@@ -94,7 +90,6 @@ nav a{
     align-items: center;
     /* padding: 10px; */
 }
-
 .content-text{
     /* border: 2px solid blue; */
     height: 40%;
@@ -103,13 +98,11 @@ nav a{
     text-align: center;
     margin-top: 15px;
 }
-
 .content-text .btn-row .buy-btn-big:hover{
     background-color: #0071e3;
     color: #fff;
     /* transition: 0.5s; */
 }
-
 .product-head{
     /* border: 2px solid red; */
     color: #fff;
@@ -117,24 +110,18 @@ nav a{
     
     /* margin: -50px; */
 }
-
 .product-para{
     /* border: 1px solid red; */
     color: #fff;
     font-size: 20px;
     /* margin: -30px; */
 }
-
 .product-container .learn-btn-big{
     display: inline;
-
 }
-
 .product-container .buy-btn-big{
     display: inline;
-
 }
-
 .product-image{
     display: flex;
     align-items: center;
@@ -146,6 +133,17 @@ nav a{
     height: 60%;
     margin-bottom: 40px;
 }
+/* Grid Section */
+.main-grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.container-cube{
+    height: 80vh;
+    border: 2px solid red;
+    margin: 5px 5px 10px 10px;
+}
 
 /* Buttons */
 .learn-btn-big{
@@ -156,9 +154,7 @@ nav a{
     border: none;
     font-size: 17px;
     margin: 20px;
-
 }
-
 .buy-btn-big{
     background-color: #000000 ;
     color: #0071e3;
