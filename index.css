@@ -107,6 +107,7 @@ nav a{
 .content-text .btn-row .buy-btn-big:hover{
     background-color: #0071e3;
     color: #fff;
+    /* transition: 0.5s; */
 }
 
 .product-head{
