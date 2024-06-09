@@ -47,7 +47,6 @@ nav a{
     height: 300px;
     margin-bottom: 10px;
 }
-
 .hero-texts{
     /* border: 1px solid pink; */
     padding: 20px;
@@ -60,7 +59,6 @@ nav a{
     margin-top: 30px;
     
 }
-
 .hero-head{
     /* border: 2px solid red; */
     text-align: center;
@@ -143,6 +141,7 @@ nav a{
     height: 80vh;
     border: 2px solid red;
     margin: 5px 5px 10px 10px;
+    background-color: #000000;
 }
 
 /* Buttons */
