@@ -139,7 +139,7 @@ nav a{
 }
 .container-cube{
     height: 80vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 5px 5px 10px 10px;
     background-color: #000000;
     text-align: center;
