@@ -167,7 +167,7 @@ nav a{
 }
 
  .piphone3{
-    max-width: 80%; /* Image will scale down to fit within its container */
+    max-width: 70%; /* Image will scale down to fit within its container */
     height: auto; /* Maintain the aspect ratio */
 }
 
